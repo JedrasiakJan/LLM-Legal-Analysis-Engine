@@ -4,6 +4,52 @@
 
 An end-to-end, agentic Retrieval-Augmented Generation (RAG) system built for the Polish legal domain. It autonomously processes scraped legal documents (Supreme and Administrative Courts) to provide precise, context-aware answers while strictly mitigating LLM hallucinations through self-reflection.
 
+### 🛠️ Tech Stack & Infrastructure
+
+
+Frontend & UI
+
+<p align="left">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/Markdown_Parsing-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+<img src="https://img.shields.io/badge/YAML_Config-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
+</p>
+
+Data Engineering & Intelligent Chunking
+
+<p align="left">
+<img src="https://img.shields.io/badge/Docling-0066FF?style=for-the-badge&logo=ibm&logoColor=white" alt="Docling" />
+<img src="https://img.shields.io/badge/LangChain_Splitters-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain Splitters" />
+<img src="https://img.shields.io/badge/PyMuPDF-FF6600?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="PyMuPDF" />
+<img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoftword&logoColor=white" alt="Docx" />
+<img src="https://img.shields.io/badge/Progress_Tracking-FF6F00?style=for-the-badge&logo=tqdm&logoColor=white" alt="TQDM" />
+</p>
+
+RAG Architecture & AI Models
+<p align="left">
+<img src="https://img.shields.io/badge/Qdrant-0033FF?style=for-the-badge&logo=qdrant&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/CUDA_Optimization-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/Qwen_/_Mistral-525CB0?style=for-the-badge&logo=alibabacloud&logoColor=white" />
+</p>
+
+<p align="left">
+<img src="https://img.shields.io/badge/Agentic_RAG_Architecture-2196F3?style=for-the-badge&logo=ai&logoColor=white" />
+<img src="https://img.shields.io/badge/BGE_Reranker_Precision-4CAF50?style=for-the-badge&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Hybrid_Search_BM25_%2B_Dense-FFA500?style=for-the-badge&logo=elasticstack&logoColor=white" />
+<img src="https://img.shields.io/badge/Self--Reflection_LLM_Judge-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+Security & On-Premise Deployment
+
+<p align="left">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Bcrypt-4A154B?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Bcrypt" />
+<img src="https://img.shields.io/badge/Hashlib-000000?style=for-the-badge&logo=python&logoColor=white" alt="Integrity" />
+<img src="https://img.shields.io/badge/DotEnv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black" alt="Dotenv" />
+</p>
 ---
 
 ## 📸 Product Modules & Interface Showcase
